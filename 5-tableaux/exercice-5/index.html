@@ -7,7 +7,15 @@
 </head>
 <body>
     <script>
-        
+        const jours = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+
+        for (const jour of jours) {
+            let phrase = `${jour}, des patates`
+            if (jour === "Dimanche") {
+                phrase += ' aussi !'
+            }
+            console.log(phrase);
+        }
     </script>
 </body>
 </html>
