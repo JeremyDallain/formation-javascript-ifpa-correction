@@ -7,7 +7,12 @@
 </head>
 <body>
     <script>
-        
+        function donne(prenom = "toi") {
+            return `Un pour ${prenom}, un pour moi`
+        }
+
+        const result = donne('toto')
+        console.log(result);
     </script>
 </body>
 </html>
